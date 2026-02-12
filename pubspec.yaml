@@ -1,0 +1,65 @@
+name: morality_code
+description: "Interactive exploration of Global ethical frameworks and moral reasoning"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.1.1+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  json_annotation: ^4.9.0
+  csv: ^6.0.0
+  intl: ^0.20.2
+  share_plus: ^11.1.0
+  open_file: ^3.5.10
+  flutter_launcher_icons: ^0.14.4
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+  flutter_secure_storage: ^9.2.4
+  url_launcher: ^6.3.1
+  firebase_core: ^4.2.1
+  firebase_storage: ^13.0.4
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^4.0.0
+  json_serializable:
+  build_runner:
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  remove_alpha_ios: true
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  
+  uses-material-design: true
+  assets:
+    - assets/enhanced_morality_data.json
+    - assets/icon.png
+    - assets/Faith_Stories_V2.json
+    # - assets/client_se.json
+
+ 
